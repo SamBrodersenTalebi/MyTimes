@@ -27,19 +27,16 @@ nav span{
   padding-right: 40px;
 }
 
-/* content */
+/* main content */
 
 .content{
   display: flex;
-  width:1232px;
-  padding-top: 100px;
-  margin: 0px auto 80px auto;
+  width:1300px;
+  padding-top: 116px;
+  margin: 0px auto 78px auto;
 
 }
 
-div{
-  border: 1px solid black;
-}
 
 .column{
   display: flex;
@@ -47,14 +44,110 @@ div{
   margin-right: 32px;
 }
 
+.image-content{
+  display: flex;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+
+.story{
+  display:flex;
+  flex-direction:column;
+  width:300px;
+}
+
+.stories{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+/* large column*/
+
 #columnlarge{
   width: 630px;
 }
+
+.lead-story .image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width:630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.earth{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.research{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  margin-top: 0;
+  font-size: 40px;
+}
+
+
+/* medium column*/
 
 #columnmedium{
   width: 300px;
 }
 
+.cat{
+  width:300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+/* small column*/
+
 #columnsmall{
   width:240px;
+}
+
+.news-bites{
+  display:flex;
+  flex-direction:column;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.news-bites .bites{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.bites{
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding:10px 0px 10px 20px;
+}
+
+/* footer */
+
+footer{
+  display:flex;
+  height:200px;
+  width:100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+}
+
+.title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid white;
 }
